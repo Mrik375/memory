@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function() { //Charge le DOM avant
 
     const backFace = document.createElement("img"); // Créé la face AR de la carte
     backFace.classList.add("back-face");
-    backFace.src = "/img/back.jpg";
+    backFace.src = "img/back.jpg";
     backFace.alt = "back";
 
     cardElement.appendChild(frontFace); // Ajoute les faces av/ar en tant qu'enfants
@@ -59,7 +59,7 @@ function playFlipSound() { // Fonction pour jouer le son de retournement de cart
 
   const cards = document.querySelectorAll(".memory-card");
   const victoryMessage = document.getElementById("victoire");
-  const flipSound = new Audio("/sound/flip.mp3"); // Charge le son de retournement
+  const flipSound = new Audio("sound/flip.mp3"); // Charge le son de retournement
 
   let isCardFlipped = false;
   let lockBoard = false; // verrouille le clic si action en cours
