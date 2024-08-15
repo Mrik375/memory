@@ -42,7 +42,7 @@ a:active {
 .a1 {
     border-radius: 50px 0px 0px 50px;
 }
-.a5 {
+.a2 {
     color: white;
     border: solid 1px;    
     border-radius: 0px 50px 50px 0px;
@@ -56,7 +56,7 @@ a:active {
     0% {color: #646665;}
     100% {color: white;box-shadow: white 0px 0px 10px;}
 }
-.a5:active {
+.a2:active {
     text-shadow: white 0px 0px 2px;
 }
 section {
