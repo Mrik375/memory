@@ -1,0 +1,50 @@
+.solarmemory {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 15px;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+}
+  /* Styles de base pour chaque carte */
+  .memory-card {
+    display: flex;
+    margin: none;
+    width: 140px;
+    height: 170px;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform 0.3s;
+    cursor: pointer;
+  }  
+  /* Face visible de la carte */
+  .front-face,
+  .back-face {
+    position: absolute;
+    width: 140px;
+    height: 170px;
+    backface-visibility: hidden;
+    border-radius: 10px;
+  }  
+  /* Face arrière de la carte */
+  .back-face {
+    background: #2e3a46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+  }  
+  /* Face avant de la carte */
+  .front-face {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+  }  
+  /* Effet de rotation pour la carte retournée */
+  .flip {
+    transform: rotateY(180deg);
+  }

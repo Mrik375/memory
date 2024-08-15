@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
+body {
+    background-image: url(/img/wall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    width: 100vw;
+    font-family: "Varela Round", sans-serif;
+}
+.imgdemo {
+    margin: auto;
+    height: 350px;
+    width: 390px;
+}
+.container {
+    display: inline-block;
+    border: solid 1px white;
+    border-radius: 50px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    box-shadow: black 0px 0px 10px 1px;
+}
+.menu {
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: #85eed0;
+    background-color: rgb(59, 59, 59);
+    padding: 1em;
+}
+a:hover {
+    background-color: rgb(75, 75, 75);
+    transition: background-color 0.2s;
+}
+a:active {
+    color: white;
+}
+.a1 {
+    border-radius: 50px 0px 0px 50px;
+}
+.a5 {
+    color: white;
+    border: solid 1px;    
+    border-radius: 0px 50px 50px 0px;
+    animation: blinkText 0.8s infinite alternate, blinkBorder 0.8s infinite alternate; 
+}
+@keyframes blinkText {
+    0% {color: #646665;}
+    100% {color: white;text-shadow: white 0px 0px 10px;}
+}
+@keyframes blinkBorder {
+    0% {color: #646665;}
+    100% {color: white;box-shadow: white 0px 0px 10px;}
+}
+.a5:active {
+    text-shadow: white 0px 0px 2px;
+}
+section {
+    display: flex;
+    font-size: 1.2em;
+    flex-direction: column;
+    margin: auto;
+    width: 800px;
+    height: fit-content;
+    border-radius: 20px;
+    padding: 2%;
+    color: white;
+    background-color: rgba(29, 27, 27, 0.911);
+}
+section h2 {
+    color: white;
+    font-size: 1.7em;
+}
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 800;
+    color: #1FD8A4;
+    text-shadow: 0px 0px 7px black;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #1FD8A4;
+    font-weight: 400;
+    margin-left: 4%;
+    margin-bottom: 3%;
+    text-shadow: 0px 0px 10px black;
+}
+.definition {
+    display: none;
+    padding: 5px;
+    text-align: center;
+    width: 300px;
+}
+.victoire {    
+    display: none;
+    text-align: center;
+    height: fit-content;
+    width: 500px;
+    border-radius: 20px;
+    background-color: rgba(29, 27, 27, 0.952);
+    color: white;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.victoire.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.victoire h1 {
+    font-size: 9rem;
+    text-shadow: #1FD8A4 0px 0px 10px;
+}
+.victoire h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 3rem;
+    border-radius: 20px;
+    background-color: rgba(29, 27, 27, 0.11);
+}
+.victoire p {
+    background-color: rgba(29, 27, 27, 0.11);
+    border-radius: 20px;
+    padding: 2%;
+    margin-top: 5rem;
+}
+.win {
+    width: 5rem;
+    height: 5rem;
+}
