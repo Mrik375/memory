@@ -1,22 +1,22 @@
 document.addEventListener("DOMContentLoaded", function() { //Charge le DOM avant lecture JS
 
   const cardData = [
-    { name: "babypupa", img: "/img/babypupa.jpg" },
-    { name: "orangepupa", img: "/img/orangepupa.jpg" },
-    { name: "pinkpupa", img: "/img/pinkpupa.jpg" },
-    { name: "pupabang", img: "/img/pupabang.jpg" },
-    { name: "red", img: "/img/red.jpg" },
-    { name: "pupafleur", img: "/img/pupafleur.jpg" },
-    { name: "pupableu", img: "/img/pupableu.jpg" },              // Tableau de cards
-    { name: "pupavert", img: "/img/pupavert.jpg" },
-    { name: "babypupa", img: "/img/babypupa.jpg" },
-    { name: "orangepupa", img: "/img/orangepupa.jpg" },
-    { name: "pinkpupa", img: "/img/pinkpupa.jpg" },
-    { name: "pupabang", img: "/img/pupabang.jpg" },
-    { name: "red", img: "/img/red.jpg" },
-    { name: "pupafleur", img: "/img/pupafleur.jpg" },
-    { name: "pupableu", img: "/img/pupableu.jpg" },
-    { name: "pupavert", img: "/img/pupavert.jpg" }
+    { name: "babypupa", img: "img/babypupa.jpg" },
+    { name: "orangepupa", img: "img/orangepupa.jpg" },
+    { name: "pinkpupa", img: "img/pinkpupa.jpg" },
+    { name: "pupabang", img: "img/pupabang.jpg" },
+    { name: "red", img: "img/red.jpg" },
+    { name: "pupafleur", img: "img/pupafleur.jpg" },
+    { name: "pupableu", img: "img/pupableu.jpg" },              // Tableau de cards
+    { name: "pupavert", img: "img/pupavert.jpg" },
+    { name: "babypupa", img: "img/babypupa.jpg" },
+    { name: "orangepupa", img: "img/orangepupa.jpg" },
+    { name: "pinkpupa", img: "img/pinkpupa.jpg" },
+    { name: "pupabang", img: "img/pupabang.jpg" },
+    { name: "red", img: "img/red.jpg" },
+    { name: "pupafleur", img: "img/pupafleur.jpg" },
+    { name: "pupableu", img: "img/pupableu.jpg" },
+    { name: "pupavert", img: "img/pupavert.jpg" }
   ];
 
   const memoryGameContainer = document.querySelector(".solarmemory"); // Séléctionne section où placer cards
